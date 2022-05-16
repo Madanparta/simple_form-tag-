@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg,rgb(156, 110, 118),rgb(123, 123, 202) );
+    line-height: 1.7;
+}
+.main1{
+    padding-top: 50px;
+    margin: auto;
+    width: fit-content;
+}
+.fieldset{
+    justify-content: center;
+    width: fit-content;
+    background-color: white;
+}
+.legend{
+    background-color: white;
+    border: 1px solid black;
+}
+#Name1{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#Name2{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#email{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btn{
+    cursor: pointer;
+    border-radius: radius 4px;
+    background: linear-gradient(120deg,rgb(156, 110, 118),rgb(123, 123, 202) );
+    padding: 8px;
+    color: white;
+    margin: 8px;
+    width: 90%;
+}
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
